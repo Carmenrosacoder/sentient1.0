@@ -1,0 +1,1 @@
+$ (Documento). Off ('.data-api')
