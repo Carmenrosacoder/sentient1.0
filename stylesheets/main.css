@@ -5527,7 +5527,9 @@ button.close {
 
 /*  EMPIEZA EL CODIGO DE LA PAGINA*/
 
-
+.nav-fluid{
+  padding: 4px 20px;
+}
 
 .row {
   margin-left: 0;
@@ -5550,7 +5552,6 @@ nav ul li a{
 }
 nav ul li{
   float: right;
-  border-left: 1px solid black;
   display: inline-block;
   padding: 1em;
 
@@ -5571,11 +5572,125 @@ h1{
   text-align: center;
   color: #002366;
 }
+/*PORTADA*/
+.portada {
+  background-image: url("../img/hero-image.jpg");
+  background-repeat: no-repeat;
+  background-size: ;
+  background-position: center;
+}
+.portada h1 {
+  padding-top: 180px;
+  padding-bottom: 30px;
+}
+.flecha-scroll{
+  position: relative;
+  bottom: 0;
+  left: 43%;
+  padding: 3%;
+}
+/*box de 3*/
+
+.intro {
+  padding: 5% 10%;
+}
+
+.text-intro{
+  padding: 0 6%;
+  font-size: 1.5em;
+  line-height: 1.7;
+}
+.textbg-intro{
+  font-size: 1.4em !important;
+  padding: 0 2%;
+}
+.box-border-gray{
+  border: 1px solid gray;
+  padding: 5%;
+  margin-top: 50px;
+  line-height: 1.5;
+  height: 300px
+}
+.intro .row {
+  padding: 0 8%;
+}
+.intro img {
+  margin-top: 6%;
+}
+
+
 .contact{
   background-image: url(../img/background-contac-us.jpg);
+  background-size: cover;
 }
 .navbar-toggle{
   border:none;
   color: black;
   margin-top:30px; 
+}
+/*COLORES A USAR PARA TEXTO*/
+.text-white{
+  color: white;
+}
+
+/* CLASES UTILITARIAS*/
+.p-7{
+  padding: 7px;
+}
+.pv-7{
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.pv-21{
+  padding-top: 21px;
+  padding-bottom: 21px;
+}
+.pv-42{
+  padding-top: 42px;
+  padding-bottom: 42px;
+}
+.ph-50{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.fs-27{
+  font-size: 27px;
+}
+.medium{
+  font-weight: 600;
+}
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;  
+}
+
+:-ms-input-placeholder {  
+   text-align: center; 
+}
+.bg-skyblue{
+  background-color: #14688A;
+  border-radius: 3px;
+  border:none;
+}
+@media screen and (min-width: 299px) and (max-width: 768px) {
+    /*MEDIA QUERIES DE CONTACTO*/
+    .contact{
+      background-image: none;
+      background-color: #F3F1F1;
+    }
+    .text-blue-xs{
+      color:#14688A;
+    }
+    .pv-7{
+      padding-top: 7px;
+      padding-bottom: 7px;
+    }    
+
 }

@@ -1,0 +1,15 @@
+@font-face{
+	font-family: "proximanova-regular-webfont";
+	src: url(../fonts/proxima-nova/proximanova-regular-webfont.ttf);
+}
+@font-face{
+	font-family: "proximanova-regular-webfont";
+	src: url(../fonts/proxima-nova/proximanova-light-webfont.ttf);
+}
+* {
+  font-family: "proximanova-regular-webfont";
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: "proximanova-regular-webfont";
+}
