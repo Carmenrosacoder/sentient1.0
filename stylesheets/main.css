@@ -5622,7 +5622,13 @@ h1{
 .contact{
   background-image: url(../img/background-contac-us.jpg);
   background-size: cover;
+  padding: 6%;
+  text-align: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  color: white;
 }
+
 .navbar-toggle{
   border:none;
   color: black;
@@ -5679,6 +5685,18 @@ h1{
   border-radius: 3px;
   border:none;
 }
+/*CODIGO DE CARMEN*/
+button a{
+  color: white;
+}
+button .about-us{
+  width: 20%;
+  height: 6%;
+  background-color: #002366;
+  border:none;
+}
+/**/
+/*AQUI COMIENZAN LOS MEDIAS QUERIES DE LA PAGINA*/
 @media screen and (min-width: 299px) and (max-width: 768px) {
     /*MEDIA QUERIES DE CONTACTO*/
     .contact{
@@ -5694,3 +5712,4 @@ h1{
     }    
 
 }
+
