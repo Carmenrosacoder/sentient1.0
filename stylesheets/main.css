@@ -356,7 +356,7 @@ hr {
     border: 1px solid #ddd !important; } }
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: inherit;
+  /*font-family: inherit;*/
   font-weight: 500;
   line-height: 1.1;
   color: inherit; }
@@ -3587,7 +3587,7 @@ tbody.collapse.in {
 .navbar {
   position: relative;
   min-height: 50px;
-  margin-bottom: 20px;
+  /*margin-bottom: 20px; */
   border: 1px solid transparent; }
   .navbar:before, .navbar:after {
     content: " ";
@@ -5526,7 +5526,7 @@ button.close {
  
 
 /*  EMPIEZA EL CODIGO DE LA PAGINA*/
-
+/*NAV COMOON*/
 .nav-fluid{
   padding: 4px 20px;
 }
@@ -5538,8 +5538,6 @@ button.close {
 
 header{
   width: 100%;
-
-
 }
 .menu_bar{
 padding: 1.5em 2em 0em 2em;
@@ -5570,9 +5568,49 @@ li:first-child{
 h1{
   font-size: 50px;
   text-align: center;
-  color: #002366;
+  color: #002366; /*ver esto*/
 }
-/*PORTADA*/
+/*FOOTER COMOOM*/
+.footer-persona {
+  padding: 3% 10%;
+  border-top: 1px solid #D3D3D3;
+  text-align: center;
+}
+.title-footer {
+  list-style-type:none;
+  padding-left: 0 !important;
+  font-family: "proximanova-Semibold-webfont";
+}
+.title-footer li {
+  display: inline-block;
+  font-size: 1.5em;
+}
+.lisim {
+  padding-right: 0.5%;
+}
+.Privancy {
+  list-style: none;
+  padding-left: 0 !important;
+}
+.Privancy li {
+  display: inline-block;
+  font-size: 1em;
+  color: #606060;
+}
+.raya {
+  padding: 0 1%;
+}
+.iconos-radius {
+  padding: 1% 0 2% 0;
+}
+.iconos-radius img {
+  padding: 0 0.5%;
+}
+.derechos {
+  color: #606060;
+}
+
+/* EMPIEZA CODIOGO DE HOME*/
 .portada {
   background-image: url("../img/hero-image.jpg");
   background-repeat: no-repeat;
@@ -5580,8 +5618,9 @@ h1{
   background-position: center;
 }
 .portada h1 {
-  padding-top: 180px;
+  padding-top: 10%;
   padding-bottom: 30px;
+  margin-top: 0 !important;
 }
 .flecha-scroll{
   position: relative;
@@ -5589,19 +5628,22 @@ h1{
   left: 43%;
   padding: 3%;
 }
-/*box de 3*/
 
 .intro {
   padding: 5% 10%;
 }
 
 .text-intro{
-  padding: 0 6%;
+  padding: 0 10%;
   font-size: 1.5em;
   line-height: 1.7;
 }
+.intro-sentient {
+    margin: 5% 5% 6%;
+    line-height: 1.7;
+}
 .textbg-intro{
-  font-size: 1.4em !important;
+  font-size: 1.5em !important;
   padding: 0 2%;
 }
 .box-border-gray{
@@ -5640,6 +5682,9 @@ h1{
 }
 
 /* CLASES UTILITARIAS*/
+.text-black {
+  color: #000;
+}
 .p-7{
   padding: 7px;
 }
@@ -5648,7 +5693,7 @@ h1{
   padding-bottom: 7px;
 }
 .pv-21{
-  padding-top: 21px;
+  padding-top: 71px;
   padding-bottom: 21px;
 }
 .pv-42{
@@ -5658,6 +5703,13 @@ h1{
 .ph-50{
   padding-left: 50px;
   padding-right: 50px;
+}
+.ph-0{
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.ml-21-md{
+  margin-left:12.33333%
 }
 .fs-27{
   font-size: 27px;
@@ -5685,19 +5737,197 @@ h1{
   border-radius: 3px;
   border:none;
 }
-/*CODIGO DE CARMEN*/
-button a{
-  color: white;
+/*FIN CODIOGO DE HOME*/
+/* EMPIEZA CODIGO ABOUTUS */
+.texto-trading {
+  padding: 4%;
+  text-align: left;
+  line-height: 1.4em;
+  font-size: 24px;
 }
-button .about-us{
-  width: 20%;
+.texto .col-md-7{
+  font-size: 18px;
+  padding-right: 14%;
+}
+.texto .col-md-1{
+  text-align: center;
+}
+.texto .col-md-4{
+  padding-right:2%;
+}
+.php-10{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.bg-white{
+  background-color: white;
+}
+.h-88{
+  height: 88px;
+}
+.contact-blue{
+  padding: 6%;
+  text-align: center;
+  background-image: url(../img/background-about-us.jpg);
+  background-repeat: no-repeat;
+  background-position-x:center;
+  width: 100%;
+  height: 800px;
+  color: white;
+
+}
+.blue_p{
+  line-height: 1.8em;
+  font-weight:normal;
+  font-size: 18px;
+  padding: 5% 20% 5% 20%;
+}
+
+.navbar-toggle{
+  border:none;
+  color: black;
+  margin-top:30px; 
+}
+
+.contact-blue  button a{
+  color: white;
+  font-size: 24px;
+}
+.contact-blue  button{
+
+  width: 30%;
   height: 6%;
   background-color: #002366;
   border:none;
+  border-radius: 7px;
+  padding-left: 1.2%;
+  padding-bottom: 0.8%;
+  padding-top: 0.8%;
+  padding-right: 1.2%;
 }
+.contact-blue .apply{
+  background-color:#179ad6; 
+  width:100%;
+  height: 7%;
+   border-radius: 7px;
+   float: left;
+   margin-left: 5%;  
+}
+.contact-blue .apply a{
+  padding: 7% 10%;
+}
+#transparente{
+  background-color: transparent;
+  border:1px solid white;
+}
+#transparente a{
+  padding: 2%;
+}
+
+.sim{
+    background-color: #f6f6f6;
+}
+ .managment h1{
+  font-size: 24px;
+  line-height: 1.8em;
+  padding:1% 15% ;
+  color:black;
+}
+.sim #please{
+  font-size: 30px;
+}
+.preg{
+  padding-left: 18%;
+  padding-right: 15%;
+  padding-bottom: 3%;
+  font-size: 30px;
+  text-align: left;
+}
+.managment .join{
+  font-size: 30px;
+}
+.row .carrer{
+  text-align: center;
+  background-color:#179ad6; 
+  width:30%;
+  height: 7%;
+  padding: 1% 0;
+  border:none;
+  border-radius: 7px;
+  
+}
+.founder .col-md-12{
+  text-align: center; https://www.facebook.com/photo.php?fbid=10156515391325483&set=pcb.10156515678385483&type=3&theater
+}
+.founder h4 {
+  font-size: 26px;
+  padding-bottom: 0.5%;
+}
+.bg-white {
+  padding: 0;
+}
+
+.founder .col-md-12 img{
+  padding-bottom: 7%;
+  background-color: white;
+  margin-top: 5%;
+}
+.founder .col-md-12 p{
+  position: relative;
+  margin-top: -2%;
+}
+
+.bazul .carrer{
+  text-align: center;
+}
+.w-100{
+  width: 100%;
+}
+.ph-14{
+  padding-left: 14px;
+  padding-right: 14px;
+}
+.row .carrer a {
+    color: white;
+}
+h4 .text-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* FIN CODIGO ABOUTUS */
+/*AQUI EMPIEZA EL CODIGO DE PERSONA*/
+.pd-lados {
+  padding: 0 11%;
+}
+.Antonie-title {
+  padding: 4% 0 ;
+}
+.subtitle-co {
+  text-align: center;
+  margin-top: 0 !important;
+}
+.img-persona {
+  text-align: center;
+  margin-bottom: 4%;
+}
+.img-anton {
+    width: 100%;
+}
+.biografia {
+  text-align: justify;
+  padding-bottom: 5%;
+}
+
+/*FIN DE CODIGO DE PERSONA*/
 /**/
 /*AQUI COMIENZAN LOS MEDIAS QUERIES DE LA PAGINA*/
 @media screen and (min-width: 299px) and (max-width: 768px) {
+    /*LOGO MENU*/
+    .img-responsive {
+    max-width: 72%;
+    margin-left: 78%;
+      }
     /*MEDIA QUERIES DE CONTACTO*/
     .contact{
       background-image: none;
@@ -5710,6 +5940,97 @@ button .about-us{
       padding-top: 7px;
       padding-bottom: 7px;
     }    
+    /*MEDIA QUERIES DE PPERSONA*/
+    .Antonie-B {
+      font-size: 2em;
+    }
+    .biografia {
+      text-align: center;
+    }
+    /* MEDIA UIERIS DE ABOUTUS */
+    h1 {
+        font-size: 34px;
+        text-align: center;
+        color: #002366;
+    }
+    .text-center-xs{
+      text-align: center;
+    } 
+    .contact button {
+    width:330px;
+    border-radius: 0%; }
+    .contact .text_p{
+      padding: 6%;
+    }
+    .contact-blue button {
+        width: 90%;
+        height: 6%;
+        background-color: #002366;
+        border: none;
+        border-radius: 4%;
+        padding-left: 1.2%;
+        padding-bottom: 0.8%;
+        padding-top: 0.8%;
+        padding-right: 1.2%;
+    } 
+    .blue_p {
+        line-height: 1.3em;
+        font-weight: normal;
+        font-size: 17px;
+        text-align: center;
+        padding: 5% 6% 5% 5%;
+    } 
+    .contact-blue .apply {
+        background-color: #179ad6;
+        width: 100%;
+        height: 7%;
+        border-radius: 5px;
+        float: left;
+        margin-left: 0%;
+    }
+    .row .carrer {
+        text-align: center;
+        background-color: #179ad6;
+        width: 70%;
+        padding: 3%;
+        font-size: 21px;
+        border-radius: 5px;
+        height: 16%;
+        /* color: white !important; */
+        border: none;
+    }  
+    .row .carrer a {
+     color: white;
+    }            
+    .contact{
+      height: 1000px;
 
+    }
+     .texto{
+
+      text-align: center;
+
+     }
+     .ml-0-xs{
+      margin-left: 0px;
+     }
+     .contact .apply{
+     border-radius: 0px;
+     }
+     .contact  .apply a{
+      padding: 5% ;
+     }
+     .preg{
+      padding: 2.1%;
+      text-align: center;
+      font-size: 22px;
+     }
+     .managment .join{
+      padding: 7%;
+     }
+     .managment h1{
+      font-size: 18px;
+      padding: 9%;
+     }
 }
 
